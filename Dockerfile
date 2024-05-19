@@ -11,7 +11,7 @@ WORKDIR $APP_HOME
 ADD ./build/libs/esthete-0.0.1-SNAPSHOT.jar esthete-discovery-service.jar
 
 # 포트 설정
-EXPOSE 8010
+EXPOSE 8761
 
 # 앱 실행
 ENTRYPOINT ["java","-jar","esthete-discovery-service.jar"]
